@@ -49,7 +49,7 @@ metadata:
   name: devsecops-svc
 spec:
   ports:
-  - port: 9000
+  - port: 8080
     protocol: TCP
     targetPort: 8080
   selector:
